@@ -1,6 +1,6 @@
 # MobWeb_AutomaticallyOpenPDF extension for Magento
 
-After creating an invoice or shipment, the PDF for the current invoice or shipment is automatically opened, so that it can be saved or printed.
+After creating an invoice or shipment, the PDF for the current invoice or shipment is automatically opened, so that it can be downloaded or printed.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman
 
 ## Configuration
 
-No configuration added for simplicity. If you would like to deactivate the automatic opening of the PDF for either the invoices or shipments, just comment out the relevant line in `Observer.php` (the one that starts with `Mage::getSingleton('core/session')` in either `salesOrderInvoiceSaveAfter` or `salesOrderShipmentSaveAfter`).
+No configuration added for simplicity. If you would like to deactivate the automatic opening of the PDF for either the invoices or shipments, just comment out the relevant line in `Observer.php` (the one that starts with `Mage::getSingleton('core/session')` in either the `salesOrderInvoiceSaveAfter` or `salesOrderShipmentSaveAfter` method).
 
 ## How it works
 
