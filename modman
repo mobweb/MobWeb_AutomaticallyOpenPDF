@@ -1,0 +1,6 @@
+app/code/community/MobWeb/AutomaticallyOpenPDF app/code/community/MobWeb/AutomaticallyOpenPDF/
+
+app/etc/modules/MobWeb_AutomaticallyOpenPDF.xml app/etc/modules/MobWeb_AutomaticallyOpenPDF.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
